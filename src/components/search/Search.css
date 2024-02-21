@@ -1,0 +1,31 @@
+.search-container{
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+.city-input-container{
+  width:70%;
+  margin-left: 10%;
+}
+.city-input {
+  border-radius: 40px;
+  padding: 1.5rem 1rem;
+  border: 0;
+  box-shadow: 10px 10px 20px 0px #C0C6CEC7;
+  height: 1.7rem;
+  width:100%;
+  font-size: 1.5rem;
+}
+.city-input:focus{
+  border: none;
+  outline: 3px solid rgb(195, 244, 255);
+}
+.search-icon{
+  border-radius: 40px;
+  padding: 0.2rem;
+  border: 0;
+  box-shadow: 10px 10px 20px 0px #C0C6CEC7;
+  background-color: white;
+  height: 1.7rem;
+  margin: 1rem;
+  cursor: pointer;
+}

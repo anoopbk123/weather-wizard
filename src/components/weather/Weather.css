@@ -1,0 +1,39 @@
+.weather-container {
+  margin: 1rem 0;
+  color: #232374;
+}
+.weather-icon-container {
+  margin: 1rem auto;
+  text-align: center;
+  width: 250px;
+  background-color: #e9dfdf;
+  box-shadow: 10px 10px 20px -4px #c0c6cec7;
+  border-radius: 50%;
+  padding-bottom: 0.01rem;
+}
+.temperature {
+  margin-bottom: 3rem;
+  font-size: 4em;
+  font-family: Inter;
+  /* font-size: 60px; */
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.temp-unit {
+  font-size: 30px;
+}
+.weather-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #028cc8;
+}
+.weather-tiles-container{
+  margin: 1rem;
+}
+.location{
+  font-size: 1.5rem;
+}
