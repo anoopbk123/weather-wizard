@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function WeatherWizard() {
-  const [city, setCity] = useState("Kochi");
+  const [city, setCity] = useState("New York");
   const [weatherData, setWeatherData] = useState();
   const apiKey = "c7c6352c948caea74ebf6fa6d9e478c1";
 

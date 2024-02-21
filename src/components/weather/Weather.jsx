@@ -1,16 +1,14 @@
 import React from "react";
 import "./Weather.css";
 import dateData from "../../assets/data/dateData";
-import weatherIcon from "../../assets/demo.png";
 import WeatherTile from "../weather-tile/WeatherTile";
 
 export default function Weather({ weatherData }) {
   const date = new Date();
   const month = date.getMonth();
   const day = date.getDay();
-  const temp = ''
-  console.log(weatherData);
-  console.log(weatherData);
+  // console.log(weatherData);
+  // console.log(weatherData);
   return (
     <div className="weather-container">
       <section className="text-center">
